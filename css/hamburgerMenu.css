@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.nav-list {
+.nav-list {  /* リストの親、`ul`に対しての装飾 */
   position: absolute;
   top: 0;
   left: 0;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.nav-list>li a {
+.nav-list>li a {  /* リストの子要素が内包するaタグに関する記載 */
   display: block;
   padding: 10px 1em;
   text-decoration: none;
