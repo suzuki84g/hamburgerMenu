@@ -1,6 +1,11 @@
 // 現状、ボタンアイコンの実装がなく、押下後のnavリストがいきなり表示されるので、idの付与をjsで操作してビジュアルをやっていく形にする。
 
-document.getElementById('nav-toggle');  // button要素の取得
+const button = document.getElementById('nav-toggle');  // button要素を明示
+
+function btn_click() {
+    window.alert('ボタンがクリックされました。');
+}
+
 document.getElementById('nav-list');  // 表示されるリスト項目
 
 // #TODO:button押下時の動作
