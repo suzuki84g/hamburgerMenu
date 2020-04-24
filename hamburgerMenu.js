@@ -6,7 +6,7 @@ const navList = document.getElementById('nav-list');  // nav-listを取得
 function btn_click() {
     // TODO:button押下時の動作を記述
     // window.alert('ボタンがクリックされました。');  // 試し
-    navList.classList.add('hidden');  // `hidden`classを付与して表示を消す
+    navList.classList.toggle('hidden');  // `hidden`classをtoggleで切り替える
 };
 
 
