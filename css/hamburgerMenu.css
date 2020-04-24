@@ -24,3 +24,7 @@
   text-decoration: none;
   color: white;
 }
+
+.hidden {  /* 付与される非表示クラス */
+  display: none;
+}
