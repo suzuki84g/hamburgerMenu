@@ -1,14 +1,19 @@
 // 現状、ボタンアイコンの実装がなく、押下後のnavリストがいきなり表示されるので、idの付与をjsで操作してビジュアルをやっていく形にする。
 
+const button = document.getElementById('nav-toggle');  // button要素
+const navList = document.getElementById('nav-list');  // nav-listを取得
 
 function btn_click() {
-    // button押下時の動作を記述
-    window.alert('ボタンがクリックされました。');
+    // TODO:button押下時の動作を記述
+    // window.alert('ボタンがクリックされました。');  // 試し
+    navList.classList.add('hidden');  // `hidden`classを付与して表示を消す
 };
 
-const button = document.getElementById('nav-toggle');  // button要素
-const navList = document.getElementById('nav-list');  // リスト要素 #WIP:liを含む形で記述が必要
 
 // #TODO:button押下時の正しい動作
 // #TODO:button要素のクラス（＝buttonそのものをtoggleで切り替える）
 // #TODO:リスト要素のクラスをtoggleで切り替える
+
+
+// TODO:nav-listとhiddenをbutton押下で切り替える
+
