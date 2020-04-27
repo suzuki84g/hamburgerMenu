@@ -18,13 +18,13 @@
   text-align: center;
 }
 
+.nav-list.hidden {  /* 付与される非表示クラス */
+  display: none;
+}
+
 .nav-list>li a {  /* リストの子要素が内包するaタグに関する記載 */
   display: block;
   padding: 10px 1em;
   text-decoration: none;
   color: white;
-}
-
-.hidden {  /* 付与される非表示クラス */
-  display: none;
 }
