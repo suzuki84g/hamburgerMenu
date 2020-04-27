@@ -16,10 +16,14 @@
   padding: 60px 0 30px;
   background: rgba(125, 125, 125, 0.95);
   text-align: center;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s, visibility 1s;
 }
 
 .nav-list.hidden {  /* 付与される非表示クラス */
-  display: none;
+  opacity: 0;
+  visibility: visible;
 }
 
 .nav-list>li a {  /* リストの子要素が内包するaタグに関する記載 */
